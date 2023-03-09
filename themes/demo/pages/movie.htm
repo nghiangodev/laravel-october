@@ -1,0 +1,15 @@
+title = "Movie"
+layout = "default"
+url = "/movie"
+
+[builderList]
+modelClass = "JohnWick\Movies\Models\Movie"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component "builderList" %}

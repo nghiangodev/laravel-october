@@ -1,0 +1,11 @@
+plugin:
+    name: 'johnwick.movies::lang.plugin.name'
+    description: 'johnwick.movies::lang.plugin.description'
+    author: 'john wick'
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    Movies:
+        label: Movies
+        url: johnwick/movies/movies
+        icon: icon-video-camera

@@ -1,0 +1,11 @@
+name: Movies
+modelClass: JohnWick\Movies\Models\Movie
+form: $/johnwick/movies/models/movie/fields.yaml
+defaultRedirect: johnwick/movies/movies
+create:
+    redirect: 'johnwick/movies/movies/update/:id'
+    redirectClose: johnwick/movies/movies
+update:
+    redirect: johnwick/movies/movies
+    redirectClose: johnwick/movies/movies
+preview: {  }

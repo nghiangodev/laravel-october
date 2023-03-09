@@ -1,0 +1,12 @@
+title: Movies
+modelClass: JohnWick\Movies\Models\Movie
+list: $/johnwick/movies/models/movie/columns.yaml
+recordUrl: 'johnwick/movies/movies/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
