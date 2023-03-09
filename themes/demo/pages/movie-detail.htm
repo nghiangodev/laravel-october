@@ -1,0 +1,12 @@
+url = "/movie/:slug"
+layout = "default"
+title = "movie detail"
+
+[builderDetails]
+modelClass = "JohnWick\Movies\Models\Movie"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}
